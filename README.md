@@ -37,8 +37,4 @@ Add more configuration into Nginx:
 
 Embe the JavaScript tracking code on your webpages:
 
-<<<<<<< HEAD
     <script type="text/javascript" src="/_.js"></script>
-=======
-    <script type="text/javascript" src="/_.js"></script>
->>>>>>> 5abd2421c8fd84706b61849370da26e0e0d07577
