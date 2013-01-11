@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doubaokun/Tracking"
+    "url": "git://github.com/doubaokun/visitor-tracking"
   },
   "author": "Bruce Dou",
   "keywords": [
@@ -29,7 +29,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/bruce/test/blob/master/LICENSE-MIT"
+      "url": "https://github.com/doubaokun/visitor-tracking/blob/master/LICENSE-MIT"
     }
   ],
 
