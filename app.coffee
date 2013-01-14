@@ -4,9 +4,9 @@ track = require './lib/track'
 
 app = exports.app = express()
 
-app.get '/_/', track.index
-app.get '/_/_.js', track.js
-app.get '/_/_.gif', track.img
+app.get '/', track.index
+app.get '/_.js', track.js
+app.get '/_.gif', track.img
 app.get '*', (req, res) ->
   res.send '404', 404
 

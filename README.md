@@ -29,7 +29,7 @@ Add more configuration into Nginx:
 
     # including in server block
     location /_/ {
-      proxy_pass      http://tracking_app/_/;
+      proxy_pass      http://tracking_app/;
       proxy_redirect off;
     }
     
@@ -40,4 +40,4 @@ Add more configuration into Nginx:
 
 Embe the JavaScript tracking code on your webpages:
 
-    <script type="text/javascript" src="/_.js"></script>
+    <script type="text/javascript" src="/_/_.js"></script>
