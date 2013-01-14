@@ -26,11 +26,14 @@ Stop the application:
 
 Add more configuration into Nginx:
 
-    location ~ ^/_\..*$ {
-      proxy_pass      http://tracking_app/;
+
+    # including in server block
+    location /_/ {
+      proxy_pass      http://tracking_app/_/;
       proxy_redirect off;
     }
     
+    # outside of server block
     upstream tracking_app {
       server 127.0.0.1:3200;
     }

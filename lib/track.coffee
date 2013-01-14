@@ -5,7 +5,7 @@ config = require('../config').config
 imgbin = new Buffer "47494638396101000100800000dbdfef00000021f" +
   "90401000000002c00000000010001000002024401003b", 'hex'
 
-jsContent = "document.write('<img src=\"/_.gif?l=' + " +
+jsContent = "document.write('<img src=\"/_/_.gif?l=' + " +
   "encodeURIComponent(window.location.href) + '&r=' + " +
   "encodeURIComponent(window.document.referrer || 'n/a') +'\" />');"
 
@@ -36,7 +36,7 @@ exports.js = (req, res) ->
 exports.index = (req, res) ->
   res.send """<html>
     <body>
-    <script type="text/javascript" src="/_.js"></script>
+    <script type="text/javascript" src="/_/_.js"></script>
     </body>
     </html>
     """
