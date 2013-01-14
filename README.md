@@ -27,7 +27,7 @@ Stop the application:
 Add more configuration into Nginx:
 
     location ~ ^/_\..*$ {
-      proxy_pass      http://data_app/;
+      proxy_pass      http://tracking_app/;
       proxy_redirect off;
     }
     
