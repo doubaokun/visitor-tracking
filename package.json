@@ -1,7 +1,6 @@
 {
   "name": "visitor-tracking",
   "version": "0.0.1",
-  "private": true,
   "description": "Track the users view your webpage, generate visit logs.",
   "main": "app.coffee",
   "scripts": {
